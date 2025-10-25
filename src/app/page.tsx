@@ -3,23 +3,17 @@ export default function HomePage() {
     <div className="flex min-h-screen flex-col items-center justify-center p-24">
       <main className="flex flex-col items-center justify-center">
         <h1 className="text-6xl font-bold mb-8">
-          Welcome to Ad SaaS
+          Sales Pipeline
         </h1>
-        <p className="text-xl text-muted-foreground mb-8">
-          Your modern advertising management platform
+        <p className="text-xl text-gray-600 mb-8">
+          Manage your deals with a visual kanban board
         </p>
         <div className="flex gap-4">
           <a
-            href="/login"
-            className="px-6 py-3 bg-primary text-primary-foreground rounded-md hover:opacity-90 transition-opacity"
+            href="/pipeline"
+            className="px-6 py-3 bg-gray-900 text-white rounded-md hover:bg-gray-800 transition-colors"
           >
-            Get Started
-          </a>
-          <a
-            href="/dashboard"
-            className="px-6 py-3 border border-border rounded-md hover:bg-accent transition-colors"
-          >
-            Dashboard
+            View Pipeline
           </a>
         </div>
       </main>
