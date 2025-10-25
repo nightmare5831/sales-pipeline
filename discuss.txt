@@ -1,0 +1,12 @@
+After carefully reading your job post, I believe the most important point is creating a smooth, realtime Kanban workflow that connects Gmail, Twilio, and Shopify seamlessly while staying fast and clean. 
+From my experience, the biggest challenge in this type of project is synchronizing multiple data sources without hurting UI performance. 
+
+(below is my previous experience and it's help you call with client.)
+In Rillet  (previous project), I solved this by designing serverless functions on Vercel with Supabase triggers, ensuring all data updates reflected instantly across the app. This approach reduced latency, kept API calls efficient, and provided stable live updates even with large datasets. The final result was a scalable system capable of handling thousands of concurrent users with realtime precision.
+
+(my plan)
+For your Kanban Deal Platform, I’d implement a Next.js + Prisma + Supabase stack hosted on Vercel, ensuring pixel-perfect conversion from Figma. 
+- The drag-and-drop board would be powered by React Beautiful DnD with persistent deal state synced through Supabase’s real-time channels. 
+- Each integration (Gmail, Twilio, Shopify) would be handled via dedicated API routes with webhook listeners, transforming data into unified deal activities. 
+- To enhance productivity, I’d add inline editing, quick filters, and live notifications using Pusher or Ably for instant feedback. 
+Optionally, we could introduce a lightweight analytics view showing pipeline value and activity heatmaps for a deeper visual overview.
